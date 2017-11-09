@@ -74,8 +74,11 @@ body {
         color: #fffefe;
         display: flex;
         align-items: center; }
-        .header .wrapper .logo .header-nav .a {
+        .header .wrapper .logo .header-nav a {
           font-size: 16px;
-          margin-right: 40px; }
+          color: #fffefe;
+          margin: 20px; }
+          .header .wrapper .logo .header-nav a .hover {
+            background-image: url("images/prostok.png"); }
 
 /*# sourceMappingURL=index.css.map */

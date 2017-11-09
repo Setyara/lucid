@@ -64,21 +64,29 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
   .wrapper {
     background: url(images/headerimages.png);
     width: 1170px;
     display: flex;
     justify-content: space-between;
     .logo {
+
       max-width: 100px;
 
       .header-nav {
         color: #fffefe;
         display: flex;
         align-items: center;
-        .a {
+
+        a {
           font-size: 16px;
-          margin-right: 40px;
+          color: #fffefe;
+          margin: 20px;
+          
+          .hover {
+            background-image: url("images/prostok.png");
+          }
         }
       }
     }
